@@ -1,0 +1,172 @@
+
+/* Style général du portfolio */
+.portfolio {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #1f2937;
+}
+
+/* En-tête */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background-color: #1f2937;
+  color: white;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00df89;
+}
+
+/* Sections */
+main section {
+  padding: 80px 8%;
+}
+
+#accueil {
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+#accueil h2 {
+  font-size: 36px;
+}
+
+#accueil p {
+  margin: 25px auto;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+#accueil a {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #00df89;
+  color: #1f2937;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Projets et contact */
+#projets,
+#contact {
+  text-align: center;
+}
+
+/* Pied de page */
+footer {
+  padding: 25px;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #accueil h2 {
+    font-size: 26px;
+  }
+}
+
+/* =========================
+   SECTION COMPÉTENCES
+========================= */
+
+#competences {
+  padding: 70px 8%;
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+#competences h2 {
+  margin-bottom: 35px;
+  color: #1f2937;
+}
+
+.competences-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.competences-grid span {
+  background-color: #ffffff;
+  color: #1f2937;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.competences-grid span:hover {
+  transform: translateY(-4px);
+  background-color: #00df89;
+}
+
+
+/* =========================
+   SECTION CONTACT
+========================= */
+
+#contact {
+  padding: 80px 8%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.8;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #00df89;
+  color: #1f2937;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #00c77a;
+  transform: translateY(-3px);
+}
