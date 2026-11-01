@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="portfolio">
       <header>
-        <h1>Mon Portfolio</h1>
+        <h1>Félix Mendy | Développeur Web et Mobile</h1>
 
         <nav>
           <a href="#accueil">Accueil</a>
@@ -16,12 +16,22 @@ function App() {
 
       <main>
         <section id="accueil">
-          <h2>Bonjour, je suis développeur web junior 👋</h2>
+          <h2>Bonjour, je suis Félix, développeur web 👋</h2>
 
-          <p>
-            Je conçois des sites web modernes, responsive
-            et des applications web avec JavaScript et React.
-          </p>
+          
+<p>
+  Passionné par le développement web, je conçois
+  des sites internet modernes, responsive et des
+  applications web interactives.
+
+  Je travaille notamment avec HTML, CSS, JavaScript,
+  React, Node.js et les bases de données.
+
+  À travers mes projets, je développe mes compétences
+  pour proposer des solutions numériques adaptées
+  aux besoins des utilisateurs.
+</p>
+
 
           <a href="#projets">Découvrir mes projets</a>
         </section>
@@ -141,7 +151,7 @@ function App() {
   </p>
 
   <a
-    href="mailto:tonadresse@email.com"
+    href="mend001a@gmail.com"
     className="btn-contact"
   >
     Me contacter par email

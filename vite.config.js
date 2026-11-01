@@ -1,7 +1,9 @@
+
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
+// Configuration Vite pour GitHub Pages
 export default defineConfig({
   plugins: [react()],
+  base: '/ortfolio-react/',
 })
